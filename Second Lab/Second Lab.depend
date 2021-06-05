@@ -1,7 +1,14 @@
 # depslib dependency file v1.0
-1622309163 source:c:\users\md sagor hossain\onedrive\desktop\11 semester\first\main.cpp
+1622566923 source:c:\users\md sagor hossain\onedrive\desktop\11 semester\computer graphics lab\second lab\main.cpp
 	<GL/gl.h>
 	<GL/glut.h>
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
+
+1453865572 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
 
 1228530732 c:\program files (x86)\codeblocks\mingw\include\windows.h
 	<winresrc.h>
@@ -207,22 +214,7 @@
 1228530724 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
 	<objfwd.h>
 
-1453865572 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
-	<windows.h>
-	<GL/gl.h>
-	<GL/glu.h>
-
-1228530734 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
-
 1228530734 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
-
-1622309232 source:c:\users\md sagor hossain\onedrive\desktop\11 semester\computer graphics lab\first\main.cpp
-	<GL/gl.h>
-	<GL/glut.h>
-
-1622309232 source:c:\users\md sagor hossain\onedrive\desktop\11 semester\computer graphics lab\first lab\main.cpp
-	<GL/gl.h>
-	<GL/glut.h>
 
