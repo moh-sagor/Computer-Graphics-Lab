@@ -8,26 +8,32 @@ glClear (GL_COLOR_BUFFER_BIT);
 * (0.25, 0.25, 0.0) and (0.75, 0.75, 0.0)
 */
 glColor3ub (255, 255, 255);
-glBegin(GL_POLYGON);
+glPointSize(10);
+glEnable(GL_POINT_SMOOTH);
+glBegin(GL_POINTS);      // For Points
 glVertex2d (50, 50);
 glVertex2d (450, 50);
-glVertex2d (450, 350);  /* use 50,50 for Triangle */
+glVertex2d (450, 350);
 glVertex2d (50, 350);
 glEnd();
 
+
 glColor3ub (0, 0, 255);
-glBegin(GL_POLYGON);
+glLineWidth(10);
+glBegin(GL_LINES);      //For Lines
 glVertex2d (200, 50);
 glVertex2d (300, 50);
-glVertex2d (300, 300);  /* use 50,50 for Triangle */
+glVertex2d (300, 300);
 glVertex2d (200, 300);
 glEnd();
+
+
 
 glColor3ub (255, 0, 0);
 glBegin(GL_POLYGON);
 glVertex2d (325, 150);
 glVertex2d (425, 150);
-glVertex2d (425, 250);  /* use 50,50 for Triangle */
+glVertex2d (425, 250);
 glVertex2d (325, 250);
 glEnd();
 
@@ -35,15 +41,17 @@ glColor3ub (255, 0, 0);
 glBegin(GL_POLYGON);
 glVertex2d (75, 150);
 glVertex2d (175, 150);
-glVertex2d (175, 250);  /* use 50,50 for Triangle */
+glVertex2d (175, 250);
 glVertex2d (75, 250);
 glEnd();
+
+
 
 glColor3ub (0,255,0);
 glBegin(GL_POLYGON);
 glVertex2d (50, 350);
 glVertex2d (450, 350);
-glVertex2d (255, 450);  /* use 50,50 for Triangle */
+glVertex2d (255, 450);
 glEnd();
 
 /* don't wait!
@@ -58,7 +66,7 @@ glClearColor (0.0, 0.0, 0.0, 0.0);
 /* initialize viewing values */
 glMatrixMode(GL_PROJECTION);
 glLoadIdentity();
-gluOrtho2D(0, 500, 0, 500);
+gluOrtho2D(-250, 250, -250, 250);
 }
 /*
 * Declare initial window size, position, and display mode
@@ -73,7 +81,7 @@ glutInit(&argc, argv);
 glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
 glutInitWindowSize (500, 500);
 glutInitWindowPosition (100, 100);
-glutCreateWindow ("Md Sagor Hossain 181-15-11287");
+glutCreateWindow (" 181-15-11287_MD SAGOR HOSSAIN");
 init ();
 glutDisplayFunc(display);
 glutMainLoop();
