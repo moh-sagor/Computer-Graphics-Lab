@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1189868550 source:c:\users\md sagor hossain\onedrive\desktop\11 semester\computer graphics lab\smileemoji\main.c
+	<windows.h>
+	<gl/gl.h>
+
