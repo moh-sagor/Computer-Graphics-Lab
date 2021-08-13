@@ -1,3 +1,5 @@
+
+//*********************************Craw and Pitcher*****************************//
 #include <windows.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
@@ -52,7 +54,7 @@ void update(int value) {
 void StartingText()
 {
     char text[120];
-    sprintf(text, "WHERE THERE IS A WILL  THERE'S A WAY",5.00,8.00);
+    sprintf(text, "MD SAGOR HOSSAIN  ID:181-15-11287",5.00,8.00);
     glColor3f(0, 0, 0);
     glRasterPos2f( -28 , 32 );
     for(int i = 0; text[i] != '\0'; i++)
@@ -1404,7 +1406,7 @@ void handleKeypress(unsigned char key, int x, int y) {
             glutDestroyWindow(1);
             glutInitWindowSize(1240, 680);
             glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH)-1240)/2,(glutGet(GLUT_SCREEN_HEIGHT)-680)/2);
-            glutCreateWindow("MORAL STORY");
+            glutCreateWindow("MD SAGOR HOSSAIN (181-15-11287)");
             glutKeyboardFunc(handleKeypress);
             glutDisplayFunc(Display1);
             break;
@@ -1453,7 +1455,7 @@ int main(int argc, char** argv)
     glutInit(&argc,argv);
     glutInitWindowSize(1240, 680);
     glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH)-1240)/2,(glutGet(GLUT_SCREEN_HEIGHT)-680)/2);
-    glutCreateWindow("MORAL STORY");
+    glutCreateWindow("MD SAGOR HOSSAIN (181-15-11287)");
     init();
     glutReshapeFunc(reshape);
     glutDisplayFunc(Display);
