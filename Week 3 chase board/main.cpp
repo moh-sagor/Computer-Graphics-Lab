@@ -81,7 +81,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(800, 600);
 	glutInitWindowPosition(100, 150);
-	glutCreateWindow("181-15-11287_Sagor");
+	glutCreateWindow("ABID HASAN 181-15-11290");
 	glutDisplayFunc(myDisplay);
 	myInit();
 	glutMainLoop();
